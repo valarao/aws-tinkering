@@ -1,0 +1,22 @@
+branch-defaults:
+  master:
+    environment: study-sync-external
+    group_suffix: null
+environment-defaults:
+  study-sync-external:
+    branch: master
+    repository: study-sync-external
+global:
+  application_name: study-sync-external
+  branch: master
+  default_ec2_keyname: null
+  default_platform: Docker running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: study-sync-external
+  sc: git
+  workspace_type: Application
